@@ -1,15 +1,20 @@
 {
 	"name": "rotuer-article-editor",
-	"version": "0.0.1",
+	"version": "0.0.1-alpha",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
+		"sveltekit:dev": "vite dev",
+		"sveltekit:build": "vite build",
+		"sveltekit": "svelte-kit dev -p 5173",
+		"dev": "npm run tauri dev",
+		"build": "npm run tauri build",
+		"tauri": "tauri",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.41",
 		"@sveltejs/kit": "next",
+		"@tauri-apps/cli": "^1.0.5",
 		"svelte": "^3.44.0",
 		"svelte-preprocess": "^4.10.7",
 		"vite": "^3.1.0-beta.1"
