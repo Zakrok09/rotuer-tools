@@ -1,2 +1,9 @@
+<script>
 
-<a href="/articlemaker">enter</a>
+</script>
+
+<main>
+</main>
+
+<style lang="scss">
+</style>
